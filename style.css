@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    box-sizing: border-box;
+    background: #f2f3f4;
+    font-family: 'Poppins', sans-serif;
+}
+
+.container{
+    text-align: center;
+    margin-top: 10em;
+}
+
+.container h2{
+    font-size: 55px;
+}
+
+span{
+    font-size: 38px;
+}
+
+.btnContainer{
+    margin-top: 10px;
+}
+
+.btn{
+    padding: 10px 20px;
+    border-radius: 20px;
+    background: transparent;
+    border: 2px solid black;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+.btn:hover{
+    background-color: black;
+    color: white;
+    transition: 2s;
+}
